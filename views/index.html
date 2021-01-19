@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deals</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@500&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav__left">
+        <div class="nav__brand">
+          <h1 class="brand__icon">D.</h1>
+        </div>
+        <div class="nav__items">
+          <ul class="nav__list">
+            <li class="nav__list--items">
+              <a href="#" class="nav__links">home</a>
+            </li>
+            <li class="nav__list--items">
+              <a href="#" class="nav__links">about us</a>
+            </li>
+            <li class="nav__list--items">
+              <a href="contact.html" class="nav__links">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav__right">
+        <div class="nav__social">
+          <i class="fab fa-instagram"></i>
+          <i class="far fa-envelope"></i>
+          <i class="fab fa-facebook"></i>
+        </div>
+      </div>
+    </header>
+    <main class="section__hero">
+      <div class="hero__heading">
+        <h1 class="heading__primary">
+          Dont’t regret if you miss any deals, connect with us.
+        </h1>
+        <p class="heading__paragraph">
+          we will notify about the deals on the products you like, so that
+          <br />
+          you never run out of your budget.
+        </p>
+        <i class="fas fa-angle-double-right icon"></i>
+      </div>
+      <div class="hero__details">
+        <form action="/details" method="post" class="hero__form">
+          <h1 class="form__icon">D.</h1>
+          <input
+            type="email"
+            name="email"
+            placeholder="email address"
+            autocomplete="none"
+          />
+          <input
+            type="text"
+            name="fname"
+            placeholder="full name"
+            autocomplete="none"
+          />
+          <input
+            type="text"
+            id="products"
+            name="products"
+            placeholder="products you are interested in"
+            autocomplete="none"
+          />
+          <label for="products" class="pro"
+            >e.g. mobile,television,laptop,accesories etc.</label
+          >
+          <input
+            type="text"
+            name="extra"
+            placeholder="any thing extra you want to let us know "
+            autocomplete="none"
+          />
+
+          <button type="submit" href="#" class="btn btn-submit">
+            submit <i class="fas fa-arrow-right btn-icon"></i>
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

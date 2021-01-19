@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deals</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@500&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/styles.css" />
+  </head>
+
+  <body>
+    <main class="section__main">
+      <div class="section__left">
+        <div class="nav__contact">
+          <div class="nav__brand">
+            <h1 class="brand__icon">D.</h1>
+          </div>
+          <div class="nav__items">
+            <ul class="nav__list">
+              <li class="nav__list--items">
+                <a href="index.html" class="nav__links">home</a>
+              </li>
+              <li class="nav__list--items">
+                <a href="#" class="nav__links">about us</a>
+              </li>
+              <li class="nav__list--items">
+                <a href="contact.html" class="nav__links">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section__heading">
+          <div class="hero__heading--contact">
+            <h1 class="heading__contact">
+              Contact us and share your thoughts how you think about this
+              initiative.
+            </h1>
+            <p class="contact__paragraph">
+              You can find us in the below platforms or you can message us.
+            </p>
+          </div>
+          <div class="social__contact">
+            <div class="nav__social--contact">
+              <i class="fab fa-instagram"></i>
+              <i class="far fa-envelope"></i>
+              <i class="fab fa-facebook"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__right">
+        <form action="/contact" class="contact__form" method="post">
+          <input type="email" name="fname" placeholder="Email address" />
+          <input type="text" name="fname" placeholder="Full name" />
+          <input
+            type="text"
+            name="message"
+            placeholder="Share your thoughts..."
+            class="message__contact"
+          />
+
+          <button type="submit" href="#" class="btn btn-submit--contact">
+            Send <i class="fas fa-arrow-right btn-icon"></i>
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
